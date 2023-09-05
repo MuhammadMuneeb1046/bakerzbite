@@ -1,0 +1,1 @@
+css{cascading style sheet}(used to decorate and modify the website as per the user`s wish)

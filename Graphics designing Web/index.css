@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    box-sizing: border-box;
+    background-color: black;
+    color: whitesmoke;
+    height: 60px;
+    width: 100%;
+    
+}
+nav ul{
+    float: left;
+    font-size: 30px;
+    list-style: none;
+    margin-left: 200px;
+    padding: 15px;
+}
+nav ul li{
+    text-align: center;
+    display: inline;
+    margin-left: 40px;
+}

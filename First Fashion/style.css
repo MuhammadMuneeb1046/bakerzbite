@@ -1,0 +1,29 @@
+.a{
+    font-size: 23px;
+    color: black;
+}
+.b{
+    text-align: center;
+    color: rgb(190, 18, 18);
+    font-size: 30px;
+}
+.c{
+    font-size: 30px;
+    color: rgb(190, 18, 18);
+}
+.d{
+    list-style: none;
+}
+.e{
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+.container{
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: rgb(255, 181, 23);
+}
+a{
+    color: black;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Insurance</title>
+    <link rel="stylesheet" href="D:\Insurance website\index.css">
+    <style>
+        /* Home Insurance */
+/* tables */
+.aaa{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 60px;
+}
+.aab{
+    position: absolute;
+    top: 30px;
+    left: 700px;
+    font-size: 25px;
+}
+/* buttons */
+.aac{
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+.aad{
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgb(250, 177, 41);
+    border: 2px solid rgb(0, 0, 0);
+}
+.aad:hover{background-color: aliceblue}
+.aae{
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.aaf{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 120px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <table class="aaa">
+        <tr>
+            <td>Get an Insurance <br> Quote to get started!</td>
+        </tr>
+        <tr>
+            <td><button class="aac"><a href="D:\Insurance website\Home insurance.html">Home Insurance</a></button></td>
+        </tr>
+        <tr>
+            <td><button class="aac"><a href="D:\Insurance website\Car Insurance.html">Car Insurance</a></button></td>
+        </tr>
+        <tr>
+            <td><button class="aac"><a href="D:\Insurance website\Health insurance.html">Health Insurance</a></button></td>
+        </tr>
+        <tr>
+            <td><button class="aac"><a href="D:\Insurance website\Education Insurance.html">Education Insurance</a></button></td>
+        </tr>
+    </table>
+    <table class="aab">
+        <tr>
+            <td>Health Insurance</td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter Name" class="aae"></td>
+        </tr>
+        <tr>
+            <td><input type="email" placeholder="Enter Mail" class="aae"></td>
+        </tr>
+        <tr>
+            <td><select name="property" id="property" class="aae">
+                <option disabled selected value="">Enter Property type:</option>
+                <option value="">Home Insurance</option>
+                <option value="">Car Insurance</option>
+                <option value="">Health Insurance</option>
+                <option value="">Education Insurance</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><input type="text-area" placeholder="Enter Message" class="aaf"></td>
+        </tr>
+        <tr>
+            <td>
+             <input type="radio">MONTHLY INCOME
+             <input type="radio">YEARLY INCOME</td>
+         </tr>
+        <tr>
+            <td><button onclick="abc()" class="aad">GET A QOUTE NOW</button></td>
+        </tr>
+    </table>
+    <script>
+        function abc(){
+            alert("Your Subscription Code is 1012")
+        }
+    </script>
+</body>
+</html>

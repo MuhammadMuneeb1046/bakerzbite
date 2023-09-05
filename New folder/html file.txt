@@ -1,0 +1,18 @@
+html is a markup langage not a programming language it helps in dispplaying the stuff onn the screen
+html is a static website means what we put in a code is shown on the website but in dynamic websites we can put little codes and
+they will get the html and other things we did not put while doing the codng
+strong(fro text bold)
+em{emphasis}(for italic text)
+cite(for italic text)
+lorem(dummy text)
+a(for applying a link)
+ul{unordered list}(list without numbers)
+ol{ordered lists}(list with numbers)
+thead{table head}(for working in the table head)
+th{table heading}(for assigning table a heading)
+tbody{table body}(for working in the table body)
+td{table details}(for giving details in a table)
+abbr{abbreviation}(full text on hover)
+small(to create sub content)
+# in a link says the link to reload page on the click
+&copy(for copyright symbol)
